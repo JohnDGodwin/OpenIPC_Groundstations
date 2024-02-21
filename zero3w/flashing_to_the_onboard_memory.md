@@ -5,7 +5,7 @@ Setup
 
 Currently there is no bootloader file available from Radxa to use their flashrom feature. However it is still possible to flash the image to the onboard emmc. We do this by booting from the SD card and flashing the onboard memory with the `dd` command.
 
-Download an image of your choice for the Zero 3W. [I recommend this one.](https://github.com/Joshua-Riek/ubuntu-rockchip/releases/download/v1.33/ubuntu-22.04.3-preinstalled-server-arm64-radxa-zero3.img.xz)
+Download an image of your choice for the Zero 3W. [I recommend this one.](https://github.com/Joshua-Riek/ubuntu-rockchip/releases/download/v1.33/ubuntu-22.04.3-preinstalled-server-arm64-radxa-zero3.img.xz) (You'll have to boot it up once first or manually expand the filesystem)
 
 Flash that image to an SD card, then transfer the openipc image to a directory inside that image.
 
