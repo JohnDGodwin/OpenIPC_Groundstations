@@ -6,7 +6,7 @@
 
 <h1>Notes</h1>
 
-* Currently playback start/stop is controlled via a push button installed to the gpio header. On the Orange Pi 5 Plus it is connected to pin 5 and ground. On the Radxa Zero 3W it is connected to pins 15 and 3.3v. In both cases, the pins are right next to each other.
+* Currently playback start/stop is controlled via a push button installed to the gpio header. On the Orange Pi 5 Plus it is connected to physical pin 5 and ground. On the Radxa Zero 3W it is connected to physical pin 15 and 3.3v. In both cases, the pins are right next to each other.
 * The stock system will force your display to 1920x1080 mode. If you wish to change this behavior, i.e. display 1280x720, you can do so in the dvr.sh script found at `/home/ubuntu/scripts/setdisplay.sh`
 * DVR can be accessed at `/home/ubuntu/Videos` on the Orange Pi 5 Plus and at `/media/SD` on the Radxa Zero 3W. You can also access DVR via a media server if your system is on your home network at `x.x.x.x:8080` in a browser. (replace x.x.x.x with the groundstation's local ip address.)
 
